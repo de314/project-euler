@@ -1,0 +1,19 @@
+/*
+<%= problem.url %>
+# <%= problem.title %>
+<%= problem.description %>
+*/
+
+function test(input = 1000) {
+  return input;
+}
+
+function run() {
+  return test();
+}
+
+module.exports = {
+  info: <%= JSON.stringify(problem) %>,
+  run,
+  test,
+};

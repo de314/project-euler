@@ -17,7 +17,11 @@
   "author": "David Esposito <desposi1@gmail.com> (https://github.com/de44)",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.18.0",
     "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "jsonframe-cheerio": "^3.0.1",
+    "lodash": "^4.17.11",
     "mocha": "^6.1.1"
   }
 }
