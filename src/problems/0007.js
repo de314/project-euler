@@ -24,7 +24,7 @@ function test(input = 10001) {
       primes.push(i);
     }
   }
-  return primes[input];
+  return primes[input - 1];
 }
 
 function run() {
