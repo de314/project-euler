@@ -7,6 +7,8 @@
     "test": "test"
   },
   "scripts": {
+    "main": "node src/main.js",
+    "addProblem": "node src/scrapeProblem.js",
     "test": "mocha --recursive"
   },
   "repository": {
@@ -14,8 +16,8 @@
     "url": "git@github-de314:de314/project-euler.git"
   },
   "keywords": [],
-  "author": "David Esposito <desposi1@gmail.com> (https://github.com/de44)",
-  "license": "ISC",
+  "author": "David Esposito <david@de314.com> (https://github.com/de314)",
+  "license": "MIT",
   "devDependencies": {
     "axios": "^0.18.0",
     "chai": "^4.2.0",
