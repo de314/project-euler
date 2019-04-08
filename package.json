@@ -1,0 +1,23 @@
+{
+  "name": "project-euler",
+  "version": "1.0.0",
+  "description": "https://projecteuler.net/",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-de314:de314/project-euler.git"
+  },
+  "keywords": [],
+  "author": "David Esposito <desposi1@gmail.com> (https://github.com/de44)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.1"
+  }
+}
