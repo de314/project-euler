@@ -27,7 +27,6 @@ template = 'Example:\n```\n<%- ctx.code %>\n```'; // input = { code: '...' }
 ## options
 
 | Parameter  | Type      | Required | Description                                                                                                                     | Example                             | Default  |
-
 | ---------- | --------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | -------- |
 | `type`     | `string`  | false    | The output format.                                                                                                              | `string`, `int`, `float`, `boolean` | `string` |
 | `compiled` | `boolean` | false    | Caching option for compiled templates. This can greatly improve performance, but can also have an impact on application memory. | `true`, `false`                     | `true`   |
